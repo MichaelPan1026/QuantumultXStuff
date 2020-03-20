@@ -3,8 +3,8 @@ if ($response.statusCode != 200) {
 }
 
 const emojis= ['🆘','🈲','⚠️','🔞','📵','🚦','🏖','🖥','📺','🐧','🐬','🦉','🍄','⛳️','🚴','🤑','👽','🤖','🎃', '👺', '👁', '🐶', '🐼','🐌', '👥']
-var city0 = "高谭市";
-var isp0 = "limbopro.xyz";
+var city0 = "瓦洛兰";
+var isp0 = "御坂网络";
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
