@@ -28,6 +28,7 @@ function sign() {
           else subTitle = `重复签到`
           }
       }
+    else if  (error == 6305) subTitle = `重复签到`
     else subTitle = `？咋回事`
     senku.msg(cookieName, subTitle, detail)
     senku.done()
