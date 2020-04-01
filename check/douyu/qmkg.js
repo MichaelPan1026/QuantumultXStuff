@@ -17,11 +17,18 @@ function sign() {
     const sta = result.sign_cnt
     let subTitle = ``
     let detail = ``
-    if (error == 1) {
-      const num = result.sign_siln
-      subTitle = `签到结果: 成功`
-      detail = `获得${num}经验值,已连续签到:${total}天`
+    if (error == 0) {
+      if (sta == 0) subTitle = `正在签到`
+      else {
+          const num = result.sign_siln
+          if (num !=0) {
+            subTitle = `签到结果: 成功`
+            detail = `获得${num}鱼丸,已连续签到:${total}天`
+            }
+          else subTitle = `重复签到`
+          }
       }
+    else subTitle = `？咋回事`
     senku.msg(cookieName, subTitle, detail)
     senku.done()
   })
