@@ -12,12 +12,12 @@ sign()
 function sign() {
   const url = { url: signurlVal, headers: JSON.parse(signheaderVal) /*, body: signBodyVal */ }
   senku.get(url, (error, response, data) => {
-    const result = JSON.parse(data)
-    const coinNum = result.result.level_info.coin
-    const level = result.result.level_info.level
-    const exp = result.result.level_info.exp
-    const maxExp = result.result.level_info.max_exp
-    const msg = result.msg
+    const res = JSON.parse(data)
+    const coinNum = res.result.level_info.coin
+    const level = res.result.level_info.level
+    const exp = res.result.level_info.exp
+    const maxExp = res.result.level_info.max_exp
+    const msg = res.msg
     let detail = ``
     detail = `你现在等级为${level}（${exp}\/${maxExp}）级`
     senku.msg(cookieName, msg, detail)
