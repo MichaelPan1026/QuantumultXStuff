@@ -5,15 +5,15 @@ function getpic() {
     return $.http.get(url).then((response) => {
         if (response.statusCode == 200) {
             var obj = JSON.parse(response.body);
-            $.datas = obj;
+            var datas = obj;
             $.info(response.body);
         }
         $.log(response);
         //let datas = JSON.parse(response) || {"code": 1,"msg": "无响应"}
-        let msg = obj.data[0]
-        let url = msg.urls.original
+        let msg = datas.data[0];
+        let url = msg.urls.original;
         //console.log(url)
-        console.log(msg.title, "", msg.tags, {'openUrl':url,'mediaUrl':url})
+        $.notify(msg.title, "", msg.tags, {"media-url": url})
     });
 }
 /**
