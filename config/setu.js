@@ -1,4 +1,5 @@
 const $ = API("setu", true);
+$.log("Something");
 var params = {
     url:encodeURI("https://api.lolicon.app/setu/v2&r18=0"),
     header:{  
