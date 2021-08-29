@@ -11,6 +11,7 @@ function getpic() {
         let url = msg.urls.original;
         $.notify(msg.title, "", msg.tags, { "media-url" : url })
     });
+    $done({});
 }
 /**
  * OpenAPI
