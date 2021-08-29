@@ -2,18 +2,14 @@ const $ = API("setu");
 getpic();
 function getpic() {
     const url = `https://api.lolicon.app/setu/v2?r18=0"`;
-    return $.http.get(url).then((response) => {
-        if (response.statusCode == 200) {
-            var obj = JSON.parse(response.body);
-            var datas = obj;
-            $.info(response.body);
-        }
+    $.http.get(url).then((response) => {
+        var obj = JSON.parse(response.body);
+        var datas = obj;
+        $.info(response.body);
         $.log(response);
-        //let datas = JSON.parse(response) || {"code": 1,"msg": "无响应"}
         let msg = datas.data[0];
         let url = msg.urls.original;
-        //console.log(url)
-        $.notify(msg.title, "", msg.tags, {"media-url": url})
+        $.notify(msg.title, "", msg.tags, { "media-url" : url })
     });
 }
 /**
