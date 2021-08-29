@@ -1,7 +1,7 @@
 const $ = API("setu", true);
 getpic();
 function getpic() {
-    const url = `https://api.lolicon.app/setu/v2?r18=0`;
+    const url = `https://api.lolicon.app/setu/v2?r18=1`;
     $.http.get(url).then((response) => {
         var obj = JSON.parse(response.body);
         var datas = obj;
