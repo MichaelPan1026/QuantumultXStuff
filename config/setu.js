@@ -1,4 +1,4 @@
-const $ = API("setu");
+const $ = API("setu", true);
 getpic();
 function getpic() {
     const url = `https://api.lolicon.app/setu/v2?r18=0`;
