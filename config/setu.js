@@ -1,8 +1,6 @@
-const $ = API("setu");
-let r18 = 0 //18禁为1 非为0 2是混合
-let keyword = ''//搜索关键字
+const $ = API("setu", true);
 var params = {
-    url:encodeURI("https://api.lolicon.app/setu/v2" + "&r18=" + r18 + "&keyword=" + keyword),
+    url:encodeURI("https://api.lolicon.app/setu/v2&r18=0"),
     header:{  
      "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1"
     },
