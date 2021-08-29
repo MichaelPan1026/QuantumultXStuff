@@ -9,9 +9,9 @@ function getpic() {
         $.log(response);
         let msg = datas.data[0];
         let url = msg.urls.original;
-        $.notify(msg.title, "", msg.tags, { "media-url" : url })
+        $.notify(msg.title, "", msg.tags, { "media-url" : url };
+        $done({});
     });
-    $done({});
 }
 /**
  * OpenAPI
