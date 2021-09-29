@@ -1,0 +1,16 @@
+payload:
+  - DOMAIN-SUFFIX,epicgames.com,Games
+  - DOMAIN-SUFFIX,helpshift.com,Games
+  - DOMAIN-SUFFIX,paragon.com,Games
+  - DOMAIN-SUFFIX,unrealengine.com,Games
+  - DOMAIN-SUFFIX,playstation.com,Games
+  - DOMAIN-SUFFIX,playstation.net,Games
+  - DOMAIN-SUFFIX,playstationnetwork.com,Games
+  - DOMAIN-SUFFIX,sony.com,Games
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,Games
+  - DOMAIN-SUFFIX,fanatical.com,Games
+  - DOMAIN-SUFFIX,humblebundle.com,Games
+  - DOMAIN-SUFFIX,steam-chat.com,Games
+  - DOMAIN-SUFFIX,steamcommunity.com,Games
+  - DOMAIN-SUFFIX,steampowered.com,Games
+  - DOMAIN-SUFFIX,steamstatic.com,Games
