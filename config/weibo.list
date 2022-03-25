@@ -1,2 +1,10 @@
-HOST-KEYWORD,weibo,Weibo
-HOST-KEYWORD,sina,Weibo
+# compatible with blackmatrix7's rule
+host, f.video.weibocdn.com, proxy
+host-suffix, weibo.com, proxy
+host-suffix, weibocdn.com, proxy
+host-suffix, sina.com.cn, proxy
+host-suffix, sinaimg.cn, proxy
+host-suffix, weibo.cn, proxy
+user-agent, Weibo, proxy
+user-agent, Weibo intl., proxy
+user-agent, WeiboOverseas, proxy
