@@ -4,4 +4,5 @@ payload:
   - DOMAIN-SUFFIX,weibocdn.com
   - DOMAIN-SUFFIX,sina.com.cn
   - DOMAIN-SUFFIX,sinaimg.cn
+  - DOMAIN-SUFFIX,sinajs.cn
   - DOMAIN,f.video.weibocdn.com
