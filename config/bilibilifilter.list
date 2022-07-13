@@ -1,6 +1,0 @@
-# > bilibili
-DOMAIN-SUFFIX,biliapi.net,StreamingSE
-DOMAIN-SUFFIX,bilibili.com,StreamingSE
-DOMAIN,upos-hz-mirrorakam.akamaized.net,StreamingSE
-DOMAIN-KEYWORD,cn-hk-eq-bcache-,StreamingSE
-ip-cidr, 203.107.1.1/24, reject

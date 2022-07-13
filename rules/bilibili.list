@@ -1,0 +1,5 @@
+HOST-SUFFIX,biliapi.net,StreamingSE
+HOST-SUFFIX,bilibili.com,StreamingSE
+HOST,upos-hz-mirrorakam.akamaized.net,StreamingSE
+HOST-KEYWORD,cn-hk-eq-bcache-,StreamingSE
+ip-cidr, 203.107.1.1/24, reject
