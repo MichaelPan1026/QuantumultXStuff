@@ -1,6 +1,6 @@
-HOST-SUFFIX,biliapi.net
-HOST-SUFFIX,biliapi.com
-HOST-SUFFIX,bilibili.com
-HOST-SUFFIX,bilivideo.com
-HOST,upos-hz-mirrorakam.akamaized.net
-HOST-KEYWORD,cn-hk-eq-bcache-
+HOST-SUFFIX,biliapi.net,Proxy
+HOST-SUFFIX,biliapi.com,Proxy
+HOST-SUFFIX,bilibili.com,Proxy
+HOST-SUFFIX,bilivideo.com,Proxy
+HOST,upos-hz-mirrorakam.akamaized.net,Proxy
+HOST-KEYWORD,cn-hk-eq-bcache-,Proxy
