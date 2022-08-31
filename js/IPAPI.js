@@ -23,8 +23,8 @@ var flags = new Map([["AC","🇦🇨"],["AD","🇦🇩"],["AE","🇦🇪"],["AF"
   
 var body = $response.body;
 var obj = JSON.parse(body);
-var title =flags.get(obj['countryCode']) + ' '+ City_ValidCheck(obj['country', 'city']);
-var subtitle = ISP_ValidCheck(obj['isp', 'org']);
+var title =flags.get(obj['countryCode']) + ' '+ City_ValidCheck(obj['city'], obj['country']);
+var subtitle = ISP_ValidCheck(obj['org'], obj['isp']);
 var ip = obj['query'];
 var description = 'IP: '+ obj['query'] + '\n' + 'ISP: '+obj['isp'] + '\n' +'Timezone: '+ obj['timezone'];
 $done({title, subtitle, ip, description});
